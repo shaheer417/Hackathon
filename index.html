@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaheer Resume</title>
+     <link rel="stylesheet" href="index.css" />
+    <style>
+    </style>
+  </head>
+  <body>
+    <h1>Shaheer Niazi Resume</h1>
+
+    <!-- Personal Information Section -->
+    <div class="resume-section" id="personalInfo">
+      <h2>Personal Information</h2>
+      <img
+        src="assets/picture.jpg"
+        alt="Profile Picture"
+        style="width: 200px; height: 200px"
+      />
+      <p><strong>Name:</strong> M. Shaheer Khan Niazi</p>
+      <p><strong>Contact:</strong> niazi2822@gmail.com</p>
+      <p>
+        <strong>Current Status:</strong>
+        
+          <li>Finalization and submission of monthly sales tax return on FBR and SRB.</li>
+          <li>Assessment, reconciliation and submission of quarterly Advance tax compliance u/s 147.</li>
+          <li>Assessment of In-Bond & Ex-Bond GD duties, taxes, CFR value, Assessed value.</li>
+          <li>Monthly internal audit.</li
+        ></>
+      </p>
+    </div>
+
+    <!-- Education Section  -->
+    <div class="resume-section hide" id="education">
+      <h2>Education</h2>
+      <p><strong>Degree:</strong> B.Sc in Computer Science</p>
+      <p><strong>Institution:</strong> ABC University</p>
+      <p><strong>Year:</strong> 2022</p>
+    </div>
+
+    <!-- Skills Section  -->
+    <div class="resume-section hide" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="resume-section hide" id="workExperience">
+      <h2>Work Experience</h2>
+      <p>
+        <strong>Frontend Developer</strong> at Tech Company (2023 - Present)
+      </p>
+      <p><strong>Intern</strong> at Startup Inc. (2022 - 2023)</p>
+    </div>
+
+    <!-- Buttons to Toggle Sections -->
+    <button onclick="toggleVisibility('education')">
+      Toggle Education Section
+    </button>
+    <button onclick="toggleVisibility('skills')">Toggle Skills Section</button>
+    <button onclick="toggleVisibility('workExperience')">
+      Toggle Work Experience Section
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
